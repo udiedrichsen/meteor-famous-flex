@@ -1,8 +1,8 @@
 Package.describe({
-	name: 'particle4dev:famous-flex',
+	name: 'doedel:famous-flex',
 	summary: 'Animatable layouts, FlexScrollView & widgets for famo.us.',
-	version: "0.2.0",
-	git: 'https://github.com/particle4dev/meteor-flex-scrollview'
+	version: "0.3.1",
+	git: 'https://github.com/udiedrichsen/meteor-famous-flex"
 });
 
 var server = 'server';
@@ -12,7 +12,7 @@ var both = [client, server];
 Package.onUse(function (api) {
 	api.add_files('lib/flex-scrollview.js', client);
 
-	api.export('ijzerenhein');
+	api.export('famousflex');
 });
 
 Package.onTest(function (api) {
