@@ -1,4 +1,4 @@
-local-test:doedelfamous-flex@0.3.1
-meteor@1.1.6
 doedel:famous-flex@0.3.1
+local-test:doedel:famous-flex@0.3.1
+meteor@1.1.6
 underscore@1.0.3

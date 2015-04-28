@@ -10,8 +10,7 @@ var client = 'client';
 var both = [client, server];
 
 Package.onUse(function (api) {
-	api.add_files('lib/flex-scrollview.js', client);
-
+	api.add_files('lib/famous-flex-globals.js', client);
 	api.export('famousflex');
 });
 
