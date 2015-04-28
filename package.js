@@ -2,7 +2,7 @@ Package.describe({
 	name: 'doedel:famous-flex',
 	summary: 'Animatable layouts, FlexScrollView & widgets for famo.us.',
 	version: "0.3.1",
-	git: 'https://github.com/udiedrichsen/meteor-famous-flex"
+	git: 'https://github.com/udiedrichsen/meteor-famous-flex'
 });
 
 var server = 'server';
